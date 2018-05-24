@@ -1,7 +1,7 @@
 ## accordion control ##
 
 Om een accordion te maken met velden moet het HTML_BEGIN voor het eerste veld en HTML_END na het laatste veld worden geplaatst. 
-Het resultaat is een uitklap blok met alle velden. Om met meerdere blokken te werken moet elk blok een unieke prefix krijgen, als voorbeeld NAW.
+Het resultaat is een uitklap blok met alle velden. Om met meerdere blokken te werken moet elk blok een unieke prefix krijgen, als voorbeeld NAME.
 
 Veld: NAME_HTML_BEGIN  
 Type: karakter(1)  
