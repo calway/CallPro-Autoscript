@@ -42,7 +42,7 @@ function CallTransferToServiceNumber(toTelNr) {
 </script>
 ```
 
-Voeg dit scriptveld in op de plaats waar deze buttons moetne worden afgebeeld. 
+Voeg dit scriptveld in op de plaats waar deze buttons moeten worden afgebeeld. 
 Uiteraard zijn er alternatieve mogelijkheden. Zo kan het `<script></script>` ook in de SCRIPT.HEADER 
 variabele worden ondergebracht, en kunnen enkele buttons dan op verschillende plaatsen wara dit voor het 
 script nodig is worden ingevoegd. Ze hoeven niet perse allemaal bij elkaar te staan.
