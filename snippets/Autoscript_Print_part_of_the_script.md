@@ -44,8 +44,10 @@ Opties:
 control-type: HTML  
 HTML:
 ```
-<!-- DIT IS DE CLOSE DIV van de sectio-to-print -->
+<!-- DIT IS DE CLOSE DIV van de section-to-print -->
 </div>
 ```
 
 We plaatsen hier een print knop helemaal bovenaan, maar deze kan in principe overal staan waar het gewenst is. We gebruiken de standaard print mogelijkheid van de browser en met de twee bovenstaande velden wordt bepaald welke delen van het belscript in de afdruk terecht komen.
+
+CSS voorbeeld code van: https://stackoverflow.com/questions/21221724/how-to-show-div-when-media-is-print-hide-at-all-other-times
