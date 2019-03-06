@@ -108,19 +108,19 @@ het afcoderen kunnen worden opgeroepen in de `Custom_ValidationCheck(status)` fu
 Maak een nieuwe Flow die een HTTP request accepteert en de gegevens die gestuurd worden overzet naar een 
 Excel bestand dat in Onedrive staat.
 
-![](images\Office_365_flow.png)
+![](images/Office_365_flow.png)
 
 In de eerste stap wordt de inkomende HTTP Request opgevangen. De velden die gebruikt kunnen worden (schema) 
 zijn van te voren bepaald aan de hand van een voorbeeld json object.
 
-![](images\Flow_HTTP_Request.png)
+![](images/Flow_HTTP_Request.png)
 
 Vervolgens wordt met een Excel actie een regel in Excel toegevoegd. De velden die beschikbaar zijn 
 zijn de velden die in de Excel tabel zijn aangemaakt. Deze kunnen wordne gevuld met de velden uit 
 de schema van de HTTP request.
 
-![](images\Flow_Add_row_to_excel_table.png)
+![](images/Flow_Add_row_to_excel_table.png)
 
 Het eindresultaat is dat de Excel sheet telkens een extra regel krijgt.
 
-![](images\Excel_data.png)
+![](images/Excel_data.png)
