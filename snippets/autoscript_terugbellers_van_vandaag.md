@@ -54,3 +54,6 @@ if(frame.attr('id') === 'ace-frame') {
 
 </div>
 ```
+
+Het resultaat in het autoscript is als volgt:
+![](images/agent_terugbellijst.png)
