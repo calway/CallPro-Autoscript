@@ -9,7 +9,9 @@ Met de `data-on-frame-opened` zorgen we ervoor dat de resultaten pas wrode nopge
 ```
 <div class="accordion" data-role="accordion" data-on-frame-opened="call_ace_refresh(frame)">
 <div class="frame" id="ace-frame">
-  <a href="#" class="heading">Agent terugbellijst</a>
+  <a href="#" class="heading">Agent terugbellijst
+  	<span class="mif-loop2 place-right" style="cursor:pointer" onclick="aceRefreshData()"></span>
+	</a>
   <div class="content">
 	<div id="ace-controller">
 		<table id="ace-table" class="table border bordered">
@@ -27,26 +29,36 @@ Met de `data-on-frame-opened` zorgen we ervoor dat de resultaten pas wrode nopge
 		</table>
 	</div>
 <script>
+var aceInitialized = false;
+var aceDataTable = null;
 function call_ace_refresh(frame) {
-// Only refresh when we open the agent terugbellijst
-if(frame.attr('id') === 'ace-frame') {
-	var tick = new Date().getTime();
-	$('#ace-table').DataTable({
-		"ajax": { 
-			"url": "/api/services/GetCallBackEntriesForAgentAndCampaign?agentid=%AGENT.RESID%" + "&campaignid=%CAMPAIGN.RESID%" + "&tick=" + tick, 
-			"dataSrc": "" 
-		},
-		"columns": [
-		  { "data": "EntryStatusResDescr" },
-		  { "data": "StatDate" },
-		  { "data": "CompanyName" },
-		  { "data": "ProspectName" }
-		],
-		"pageLength": -1,
-		"lengthMenu": [ [-1], ["All"] ],
-		"dom": 'ft'
-	});
+	// Only refresh when we open the agent terugbellijst
+	if(frame.attr('id') === 'ace-frame') {
+		if(!aceInitialized) {
+			var tick = new Date().getTime();
+			$('#ace-table').DataTable({
+				"ajax": { 
+					"url": "/api/services/GetCallBackEntriesForAgentAndCampaign?agentid=%AGENT.RESID%" + "&campaignid=%CAMPAIGN.RESID%" + "&tick=" + tick, 
+					"dataSrc": "" 
+				},
+				"columns": [
+					{ "data": "EntryStatusResDescr" },
+					{ "data": "StatDate" },
+					{ "data": "CompanyName" },
+					{ "data": "ProspectName" }
+				],
+				"pageLength": -1,
+				"lengthMenu": [ [-1], ["All"] ],
+				"dom": 'ft'
+			});
+		}
+	}
 }
+
+function aceRefreshData() {
+	if(aceDataTable!=null) {
+		aceDataTable.ajax.url("/api/services/GetCallBackEntriesForAgentAndCampaign?agentid=%AGENT.RESID%" + "&campaignid=%CAMPAIGN.RESID%&nocache=true").load();
+	}
 }
 </script>
   </div>
