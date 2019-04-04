@@ -41,7 +41,15 @@ function call_ace_refresh(frame) {
 					"url": "/api/services/GetCallBackEntriesForAgentAndCampaign?agentid=%AGENT.RESID%" + "&campaignid=%CAMPAIGN.RESID%" + "&tick=" + tick, 
 					"dataSrc": "" 
 				},
+				"columnDefs": [{
+					"targets": 0,
+					"data": "",
+					"render": function ( data, type, row, meta ) {
+					return '<a href="#SCRIPT_NEXTENTRY?PROMPT&ENTRYID=' + row.ClentryID + '&CAMPAIGNID=' + row.CampaignID + '" title="Instellen als volgende gesprek"><span class="mif-next"></span></a>';
+					}
+				}],
 				"columns": [
+          { "data": "" },					
 					{ "data": "EntryStatusResDescr" },
 					{ "data": "StatDate" },
 					{ "data": "CompanyName" },
