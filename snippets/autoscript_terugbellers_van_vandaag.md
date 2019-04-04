@@ -1,6 +1,6 @@
 ## Lijst met eigen terugbellers van vandaag
 
-Met autoscript v4.3.2.103 is een api toegevoegd om een lijstje met de gerichte terugbellers voor een agent in een campagne op te vragen. Deze lijst kan vervolgens worden afgebeeld in het script.
+Met autoscript v4.3.2.103 is een api toegevoegd om een lijstje met de gerichte terugbellers voor een agent in een campagne op te vragen. Deze lijst kan vervolgens worden afgebeeld in het script. Voor het `NEXTENTRY` commando is de Script.NET versie v4.3.2.18.
 
 In dit voorbeeld plaatsen we de lijst in een accordion die we in de `SCRIPT.INFO` variabele hebben gezet op de scriptdefinitie. We gebruiken een standaard tabel met de datatables plugin om de lijst sorteerbaar en doorzoekbaar te maken. Op het moment is de lijst beperkt to maximaal 50 resultaten.
 
