@@ -1,4 +1,4 @@
-## Print een deel van het script ##
+## Print een deel van het script
 
 Meestal wil je voorkomen dat gegevens geprint worden, maar in specifieke situaties kan het zijn dat je toch een printje wilt hebben van de gegevens in het belscript.
 

@@ -1,4 +1,4 @@
-## Campaignmonitor aanmelden op mailinglijst ##
+## Campaignmonitor aanmelden op mailinglijst
 
 Om vanuit CallPro een lead aan te melden voor een Campaignmonitor mailinglijst is het volgende javascript blok nodig. 
 Plaats deze code in de SCRIPT.HEADER of eventueel in een speciaal HTML scriptveld. Omdat elk script afwijkend is moeten
@@ -62,7 +62,7 @@ function CampaignmonitorSubsribeToList()
 }
 </script>
 ```
-##### Plaats een knop in het belscript #####
+##### Plaats een knop in het belscript
 Om de functie uit te voeren hoeft alleen ergens in het belscript, bij voorkeur in de buurt van het betreffende email adres veld een knop te worden geplaatst die deze functie oproept.
 ```
 <input type="button" onclick="CampaignmonitorSubsribeToList()" value="Aanmelden" />

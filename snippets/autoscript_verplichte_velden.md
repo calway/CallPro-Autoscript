@@ -1,9 +1,9 @@
-## Verplichte velden bij afcoderen ##
+## Verplichte velden bij afcoderen
 
 In de scriptdefinitie kunnen velden als verplicht worden gemarkeerd. Dit zorgt ervoor dat als een belresultaat (belopdrachtstatus) wordt gebruikt die als eindresultaat geldt dat CallPro controleert of de verplichte velden wel gevuld zijn.
 Vaak zijn er situaties waarbij de controle op een verplicht veld afhankelijk is van een speciale afcodering. De standaard controle methode voldoet dan niet en er moet een ander emethode worden ingezet.
 
-### Maak een veld verplicht op basis van de belopdrachtstatus ###
+### Maak een veld verplicht op basis van de belopdrachtstatus
 
 Als voorbeeld gebruiken we een belopdrachtstatus "Stuur informatie" waarbij een email gestuurd gaat worden en dan na enkele dagen wordt teruggebeld. In dat geval willen we controleren dat er een geldig email adres is ingevuld (scriptveld `info_email_to`) en ook dat is aangegeven welk informatiepakket gestuurd moet worden (scriptveld `info`).
 

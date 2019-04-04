@@ -1,4 +1,4 @@
-## Veldvalidatie meldingen ##
+## Veldvalidatie meldingen
 
 In de `Custom_ValidationCheck` functie van het autoscript kunnen controles worden gemaakt die voorkomen dat een Agent een belopdrachtstatus gebruikt 
 die niet mag bij bepaalde scriptveld combinaties.

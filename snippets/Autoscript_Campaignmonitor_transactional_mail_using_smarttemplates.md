@@ -1,4 +1,4 @@
-## Gebruik Campaignmonitor om emails te sturen ##
+## Gebruik Campaignmonitor om emails te sturen
 
 Voor het versturen van emails adviseren wij het gebruik van de CallPro fulfilment module. Het is echter geen
 probleem om in het script externe mailsystemen te gebruiken zoals Campaignmonitor of MailChimp.
@@ -65,7 +65,7 @@ function SendCampaignmonitorTransactionalEmail()
 }
 </script>
 ```
-##### Plaats een knop in het belscript #####
+##### Plaats een knop in het belscript
 Om de functie uit te voeren hoeft alleen ergens in het belscript, bij voorkeur in de buurt van het betreffende email adres veld ene knop te worden geplaats die deze functie oproept.
 ```
 <input type="button" onclick="SendCampaignmonitorTransactionalEmail()" value="Stuur email" />

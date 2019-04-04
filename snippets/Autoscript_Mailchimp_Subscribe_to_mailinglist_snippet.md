@@ -1,4 +1,4 @@
-## Mailchimp aanmelden op mailinglijst ##
+## Mailchimp aanmelden op mailinglijst
 
 Om vanuit CallPro een lead aan te melden voor een Mailchimp mailinglijst is het volgende javascript blok nodig. 
 Plaats deze code in de SCRIPT.HEADER of eventueel in een speciaal HTML scriptveld. Omdat elk script afwijkend is moeten
@@ -62,7 +62,7 @@ function MailchimpSubsribeToList()
 }
 </script>
 ```
-##### Plaats een knop in het belscript #####
+##### Plaats een knop in het belscript
 Om de functie uit te voeren hoeft alleen ergens in het belscript, bij voorkeur in de buurt van het betreffende email adres veld ene knop te worden geplaats die deze functie oproept.
 ```
 <input type="button" onclick="MailchimpSubsribeToList()" value="Aanmelden" />

@@ -1,4 +1,4 @@
-## Stuur belopdracht velden naar Excel via een Office 365 Flow ##
+## Stuur belopdracht velden naar Excel via een Office 365 Flow
 
 In dit voorbeeld laten we zien hoe scriptvelden via een Office 365 Flow direct naar een
 Excel bestand kunnen worden opgeslagen. Met Office 365 Flows zijn nog veel meer acties mogelijk 
@@ -103,7 +103,7 @@ het afcoderen kunnen worden opgeroepen in de `Custom_ValidationCheck(status)` fu
 </div>
 ```
 
-### Office 365 Flow instellingen ###
+### Office 365 Flow instellingen
 
 Maak een nieuwe Flow die een HTTP request accepteert en de gegevens die gestuurd worden overzet naar een 
 Excel bestand dat in Onedrive staat.

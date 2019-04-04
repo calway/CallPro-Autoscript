@@ -1,4 +1,4 @@
-## Wijzig CSS opmaak op basis van veldinhoud ##
+## Wijzig CSS opmaak op basis van veldinhoud
 
 Om in een belscript een veld, of een stuk tekst te markeren of van opmaak te wijzigen op basis van een bepaalde conditie dient gebruik te wordne gemaakt van javascript. We geven hier een eenvoudig voorbeeld dat kan worde naangepast op de specifieke toepassing.
 
@@ -19,7 +19,7 @@ if(content=="Calway") {
 
 Omdat eerst het belscript wordt getoond, en CallPro daarna pas de velden in het belscript vult moeten we gebruik maken van de `setTimeout` functie om het uitvoeren van onze controle iets te vertragen. Zo heeft CallPro tijd om de velden te vullen.
 
-#### Update: server-side methode ####
+#### Update: server-side methode
 Een alternatieve methode die vanaf 4.3.1 beschikbaar is werkt ook zonder het gebruik van de `setTimeout` functie. Deze methode kan niet in de `SCRIPT.HEADER` worden geplaatst maar moet in een scriptveld Control HTML blok worden gezet.
 
 ```

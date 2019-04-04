@@ -1,4 +1,4 @@
-## tabcontrol ##
+## tabcontrol
 
 Om een tabcontrol te maken met verschillende tabbladen waar de scriptvelden in worden afgebeeld moet het HTML_BEGIN voor het 
 eerste veld en HTML_END na het laatste veld worden geplaatst. Het resultaat is een tabcontrol met 1 tab. 

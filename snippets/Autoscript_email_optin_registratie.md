@@ -1,4 +1,4 @@
-## Email opt-in registratie ##
+## Email opt-in registratie
 
 Voor het vastleggen van een email opt-in kan een J/N vraag gesteld worden in het belscript. 
 Als ook moet worden vastgelegd wanneeer de opt-in is afgegeven kan een datum/tijd veld worden gebruikt.

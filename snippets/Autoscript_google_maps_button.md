@@ -1,4 +1,4 @@
-## Google maps button ##
+## Google maps button
 
 Ter ondersteuning van de agents tijdens het bellen kan het handig zijn om de locatie van het adres visueel weer te geven. 
 In het belscript is het erg eenvoudig om een button te maken die Google maps opent in een nieuw venster en de adres gegevens doorgeeft.

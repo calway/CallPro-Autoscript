@@ -1,4 +1,4 @@
-## Realtime contractwaarde berekening ##
+## Realtime contractwaarde berekening
 
 Voor de realtime berekening van contractwaarde, of elke ander soort berekening kan het onderstaande 
 voorbeeld met vaste en mobiele telefonie als basis worden gebruikt. We gaan ervanuit dat er 3 velden aanwezig zijn
