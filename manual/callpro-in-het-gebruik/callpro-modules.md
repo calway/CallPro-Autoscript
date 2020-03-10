@@ -1,6 +1,6 @@
 # Inhoudsopgave
 
-[Algemeen](#todo-algemeen)
+[Algemeen](#algemeen)
 
 [De Resource Explorer](#de-resource-explorer)
 
@@ -12,7 +12,7 @@
 
 [Importdefinitie](#importdefinitie)
 
-[TODO: Exportdefinitie](#todo-exportdefinitie)
+[Exportdefinitie](#exportdefinitie)
 
 [Zoeken tools](#zoeken-tools)
 
@@ -24,7 +24,7 @@
 
 [Script-omgeving](#script-omgeving)
 
-[TODO: Diagnose](#todo-diagnose)
+[Diagnose](#diagnose)
 
 [Bestandslokaties](#bestandslokaties)
 
@@ -44,15 +44,15 @@
 
 [Seat](#seat)
 
-[TODO: Groups](#todo-groups)
+[Groups](#groups)
 
 [Campaigns](#campaigns)
 
 [Snelkoppelingen](#snelkoppelingen)
 
-[TODO: Scriptmodule](#todo-scriptmodule)
+[Scriptmodule](#scriptmodule)
 
-[TODO: Agenda module](#todo-agenda-module)
+[Agenda module](#agenda-module)
 
 [CallProPortal](#callproportal)
 
@@ -764,7 +764,7 @@ moet gebeuren met ongeldige telefoonnummers tijdens de import, weigeren
 
 Tot slot krijgt de import definitie in de laatste stap een naam.
 
-### TODO: Exportdefinitie
+### Exportdefinitie
 
 TODO
 
@@ -849,7 +849,9 @@ werkplek (Seat) niveau kunnen deze pagina’s anders worden ingesteld.
 
 ![](./media/image33.png)
 
-#### TODO: Diagnose 
+#### Diagnose 
+
+TODO
 
 #### Bestandslokaties
 
@@ -1011,9 +1013,9 @@ die niet altijd beschikbaar moeten zijn.
 ![](./media/image51.png) ![](./media/image52.png)
 ![](./media/image53.png) ![](./media/image54.png)
 
-## TODO: Groups
+## Groups
 
-TODO:
+TODO
 
 ## Campaigns
 
@@ -1058,11 +1060,11 @@ resource wordt weggegooid dan worden ook alle koppelingen naar deze
 resource weggegooid\! Afhankelijk van het resource type wordt ook alle
 bijbehorende informatie verwijderd.
 
-# TODO: Scriptmodule
+# Scriptmodule
 
 TODO
 
-## TODO: Agenda module
+## Agenda module
 
 TODO
 

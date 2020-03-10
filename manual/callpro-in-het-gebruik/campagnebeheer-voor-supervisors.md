@@ -60,7 +60,7 @@
 
 [Dagelijkse werkzaamheden](#Dagelijkse-werkzaamheden)
 
-[TODO: Wijzigen van belopdrachten](#todo-wijzigen-van-belopdrachten)
+[Wijzigen van belopdrachten](#wijzigen-van-belopdrachten)
 
 [Correctie afcoderen met verkeerde status door de Agent](#correctie-afcoderen-met-verkeerde-status-door-de-agent)
 
@@ -584,15 +584,21 @@ kan worden.
 In dit hoofdstuk staan een aantal dagelijkse taken die je als supervisor
 doet.
 
-## TODO: Wijzigen van belopdrachten
+## Wijzigen van belopdrachten
 
 Deze handeling kan worden gebruikt met meerdere doelen.
 
-TODO: Importeren
+TODO
+
+# Importeren
 
 Verwijs ook naar de importeren sectie
 
-TODO: Exporteren
+TODO
+
+# Exporteren
+
+TODO
 
 ## Correctie afcoderen met verkeerde status door de Agent
 

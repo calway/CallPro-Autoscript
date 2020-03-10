@@ -16,7 +16,7 @@ CallPro in de context van een supervisor.
 
 [Belscripts maken voor beginners](belscripts-maken-voor-beginners.md#Belscripts-maken-voor-beginners)
 
-[TODO: Wallboard](wallboard.md#todo-wallboard)
+[Wallboard](wallboard.md#wallboard)
 
 [Rapportage](rapportage.md#Rapportage)
 
