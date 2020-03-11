@@ -648,9 +648,16 @@ Het Dialer object geeft toegang tot diverse dialer instellingen
 
 | Object/Property | Betekenis |
 | --------------- | --------- |
-| Cli             |           |
-| Ddi             |           |
+| CLI             |           |
+| CallerNumber | | 
+| DDI             |           |
 | DialMode        |           |
+| IsAgentReady    | |
+| AgentState | |
+| AgentStateDescr | | 
+| IsQueriedAgentReady | | 
+| QueriedAgentState | |
+| QueriedAgentStateDescr | |
 
 ## oAgent
 
