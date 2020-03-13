@@ -33,14 +33,13 @@ best-practise installatie richtlijn te worden gevolgd.
     setting uit de script.exe.config. Als deze key niet aanwezig is, of
     op “1” staat zal de scriptmodule de auto-configuratie proberen.
 
-> Met deze instellingen zal de scriptmodule Microsip instellingen
-> gelijkhouden met de actuele Seat instellingen. Als Microsip al gestart
-> is voordat de scriptmodule wordt gestart wordt deze automatisch
-> afgesloten , aangepast en weer opnieuw gestart.
-> 
+Met deze instellingen zal de scriptmodule Microsip instellingen
+gelijkhouden met de actuele Seat instellingen. Als Microsip al gestart
+is voordat de scriptmodule wordt gestart wordt deze automatisch
+afgesloten , aangepast en weer opnieuw gestart.
+
 > Dit betekent ook dat voor remote/thuis werkers de volgorde van
-> opstarten kan worden aangepast naar:
-
-1.  Start de VPN verbinding
-
-2.  Start de Scriptmodule (dit start nu ook automatisch Microsip)
+> opstarten kan worden aangepast van 3 stappen naar 2 stappen:
+>
+> 1.  Start de VPN verbinding, wacht tot deze zegt "verbonden"
+> 2.  Start de Scriptmodule, dit start nu automatisch Microsip met de juiste instellingen.
