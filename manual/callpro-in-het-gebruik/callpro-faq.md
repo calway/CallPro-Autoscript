@@ -1,4 +1,4 @@
-# Inhoudsopgave
+# CallPro FAQ
 
 [Programma meldingen](#programma-meldingen)
 
@@ -22,8 +22,6 @@
 
 [Overige vensters](#overige-vensters)
 
-
-# CallPro FAQ
 
 # Programma meldingen
 

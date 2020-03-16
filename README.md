@@ -3,4 +3,6 @@ De verzamelplaats voor code-snippets en handige html, css en javascript voorbeel
 
 Tevens de locatie voor handleidingen:
 
-* [CallPro in het gebruik](manual/callpro-in-het-gebruik/callpro-in-het-gebruik.md)
+* [CallPro in het gebruik](manual/callpro-in-het-gebruik/README.md)
+* [Installatie en onderhoud](manual/installatie-en-onderhoud/README.md)
+* [FAQ](manual/faq/README.md)
