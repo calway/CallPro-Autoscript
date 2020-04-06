@@ -26,7 +26,7 @@ De verzamelplaats voor code-snippets en handige html, css en javascript voorbeel
 * [Mailchimp aanmelden op mailinglijst](snippets/Autoscript_Mailchimp_Subscribe_to_mailinglist_snippet.md)
 * [Weergaven van KPI informatie uit CallProPortal](snippets/CallProPortal_KPI_informatie_weergeven.md)
 
-Tevens de locatie voor handleidingen:
+# Handleidingen
 
 * [CallPro in het gebruik](manual/callpro-in-het-gebruik/README.md)
 * [Installatie en onderhoud](manual/installatie-en-onderhoud/README.md)
