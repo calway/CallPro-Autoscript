@@ -19,7 +19,8 @@ De verzamelplaats voor code-snippets en handige html, css en javascript voorbeel
 * [Lijst met eigen terugbellers van vandaag](snippets/autoscript_terugbellers_van_vandaag.md)
 * [Terugbelplanning](snippets/autoscript_terugbelplanning.md)
 
-## Integratie 
+## Integraties
+
 * [Stuur belopdracht velden naar Excel via een Office 365 Flow](snippets/autoscript_add_data_to_excel_using_office365_flow.md)
 * [Campaignmonitor aanmelden op mailinglijst](snippets/Autoscript_Campaignmonitor_Subscribe_to_mailinglist.md)
 * [Gebruik Campaignmonitor om emails te sturen](snippets/Autoscript_Campaignmonitor_transactional_mail_using_smarttemplates.md)
