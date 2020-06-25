@@ -11,7 +11,7 @@ Plaats onderstaande code in de SCRIPT.HEADER of eventueel in een speciaal HTML s
 In dit voorbeeld gebruiken we de scriptvelden `email`, `name_gender`, `name_first` en `name_last` om de smart template te vullen. Je kunt in de body json elk CallPro veld naar elk template veld mappen.
 
 
-```
+``` javascript
 <script>
 //
 // Deze functie kan gebruikt worden vanaf autoscript v4.3.1.20659

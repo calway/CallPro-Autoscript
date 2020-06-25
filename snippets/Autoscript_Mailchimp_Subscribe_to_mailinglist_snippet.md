@@ -8,7 +8,7 @@ In dit voorbeeld gebruiken we alleen een scriptveld `email`, `name_first` en `na
 velden aan de mailinglijst door te geven, kijk hiervoor in de [API documentatie van Mailchimp](https://us1.api.mailchimp.com/schema/3.0/Lists/Members/MergeField.json).
 
 
-```
+``` html
 <script>
 //
 // Deze functie kan gebruikt worden vanaf autoscript v4.3.1.20659
@@ -64,6 +64,6 @@ function MailchimpSubsribeToList()
 ```
 ##### Plaats een knop in het belscript
 Om de functie uit te voeren hoeft alleen ergens in het belscript, bij voorkeur in de buurt van het betreffende email adres veld ene knop te worden geplaats die deze functie oproept.
-```
+``` html
 <input type="button" onclick="MailchimpSubsribeToList()" value="Aanmelden" />
 ```

@@ -15,7 +15,7 @@ Er wordt gezocht naar eeen "terugbellen" status die een terugbeltijd instelling 
 en als deze wordt gevonden wordt deze terugbeltijd gebruikt, en de terugbelagent, en de notitie van die belpoging. Als vervolgens met het 
 status object wordt afgecodeert herstelt Callpro de instellingen.
 
-```
+``` javascript
 // Support functie
 Date.prototype.addDays = function(days) {
     this.setDate(this.getDate() + parseInt(days));

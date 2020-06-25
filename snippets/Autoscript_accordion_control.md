@@ -6,8 +6,11 @@ Het resultaat is een uitklap blok met alle velden. Om met meerdere blokken te we
 Veld: NAME_HTML_BEGIN  
 Type: karakter(1)  
 control-type: HTML  
+Opties:  
+[x] Laatste veld op regel  
+[x] Genereer geen regel opmaak (html) om de velden  
 HTML:
-```
+``` html
 <div class="accordion" data-role="accordion">
 <!-- Begin accordion -->
 
@@ -18,9 +21,12 @@ HTML:
 
 Veld: NAME_HTML_END  
 Type: karakter(1)  
-control-type: HTML  
+control-type: HTML
+Opties:  
+[x] Laatste veld op regel  
+[x] Genereer geen regel opmaak (html) om de velden  
 HTML:
-```
+``` html
 </div>
 </div>
 
@@ -33,9 +39,12 @@ Om tussen de BEGIN en END een extra accordion te maken kan dit worden ingevoegd
 
 Veld: ADDRESS_HTML_MIDDLE  
 Type: karakter(1)  
-control-type: HTML  
+control-type: HTML
+Opties:  
+[x] Laatste veld op regel  
+[x] Genereer geen regel opmaak (html) om de velden  
 HTML:
-```
+``` html
 </div>
 </div>
 <div class="frame active">

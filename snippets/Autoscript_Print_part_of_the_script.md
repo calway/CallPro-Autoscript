@@ -11,7 +11,7 @@ Opties:
 [x] Genereer geen regel opmaak (html) om de velden  
 control-type: HTML  
 HTML:
-```
+``` html
 <!-- Deze CSS en de open div section-to-print  zijn bedoeld voor het printen van het belscript -->
 <style>
 @media print {
@@ -43,7 +43,7 @@ Opties:
 [x] Genereer geen regel opmaak (html) om de velden  
 control-type: HTML  
 HTML:
-```
+``` html
 <!-- DIT IS DE CLOSE DIV van de section-to-print -->
 </div>
 ```

@@ -8,7 +8,8 @@ CallPro raadpleegd deze collectie en gebruikt de items om een samenvatting van d
 De `Custom_ValditionCheck` functie krijgt als paramater een status object van de status die de agent heeft gekozen om de belopdracht mee af te sluiten. 
 Als deze functie uiteindelijk `false` teruggeeft wordt hiermee aangegeven aan CallPro dat het toekennen van de belopdrachtstatus niet verder mag gaan. 
 Door items in de status.errors collectie te plaatsen worden deze meldingen gebruikt om aan de agent duidelijk te maken wat er mis is en waarom niet kan worden afgecodeerd.
-```
+
+``` javascript
 function Custom_ValidationCheck(status) {
 var validatieResultaat = true;
 switch(status.code)
@@ -34,8 +35,9 @@ validatieResultaat = false;
   break;
 }
 return validatieResultaat;
-}  
+} 
 ```
+
 Hier is voor 2 belopdrachstatussen een validatie controle opgenomen. 
 Bij code `780` wordt het `name_email` scriptveld gecontroleerd en bij code `INFO` worden zowel `name_email` als het info veld gecontroleerd. 
 Als controle kan elke conditie worden gebruikt en zelfs combinaties van velden, wat belangrijk is is dat de `status.errors` collectie wordt gevuld en 

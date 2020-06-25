@@ -14,7 +14,7 @@ Weergave control: (Ja)
 Control type: HTML
 Custom HTML:
 
-```
+``` html
 <label class="input-control radio small-check">
     <input type="radio" name="script_optin" value="" onclick="onSelectionChanged_optin(this)">
     <span class="check"></span>

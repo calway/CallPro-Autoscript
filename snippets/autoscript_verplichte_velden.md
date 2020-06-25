@@ -11,7 +11,7 @@ Bij de keuze van een belopdrachtstatus in de linker statusbalk roept het autoscr
 
 In de onderstaande functie is alleen de "Stuur informatie" controle opgenomen. Binnen het `switch` commando kunnen meerdere `case` condities voro verschillende statussen worden opgenomen.
 
-```
+``` javascript
 function Custom_ValidationCheck(status) {
 var validationResult = true;
 switch(status.code)

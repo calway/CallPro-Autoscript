@@ -15,7 +15,7 @@ stuk "boilerplate" code die heel beperkt moet worden aangepast. Onderstaande cod
 de `SCRIPT.HEADER` geplaatst. Vergeet niet de juiste Url te gebruiken.
 
 
-```
+``` javascript
 <!--
  Adding services and controllers
 -->

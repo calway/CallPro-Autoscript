@@ -5,7 +5,7 @@ Om in een belscript een veld, of een stuk tekst te markeren of van opmaak te wij
 In dit voorbeeld controleren we of het bedrijfsnaamveld `COMP_NAME` gevuld is met de tekst "Calway" en maken de achtergrondkleur in dat geval rood.  
 Hiervoor moet in de `SCRIPT.HEADER` variabele op de scriptdefinitie een javascript functie worden geplaatst die dit regelt. Als er al gebruik wordt gemaakt van een `ready` functie dient de code te worden toegevoegd aan deze bestaande functie.
 
-```
+``` javascript
 $(document).ready(function() {
 window.setTimeout(function()
 { 
@@ -22,7 +22,7 @@ Omdat eerst het belscript wordt getoond, en CallPro daarna pas de velden in het 
 #### Update: server-side methode
 Een alternatieve methode die vanaf 4.3.1 beschikbaar is werkt ook zonder het gebruik van de `setTimeout` functie. Deze methode kan niet in de `SCRIPT.HEADER` worden geplaatst maar moet in een scriptveld Control HTML blok worden gezet.
 
-```
+``` javascript
 $(document).ready(function() {
 var content = "%script.comp_name%";
 if(content=="Calway") {

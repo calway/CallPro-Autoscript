@@ -4,7 +4,7 @@ Met dit overzicht kan een agent zien heoveel gerichtte terugbelafsrpaken hij/zij
 Als shortcut kan ook op een tijdvak worden geklikt om direct eene terugbelafsrpaak in te plannen. De status die hiervoor gebruikt wordt staat standaard ingesteld op statcode 310 maar kan eenvoudig worden aangepast.
 
 
-```
+``` html
 <div class="accordion" data-role="accordion">
 <div class="frame">
   <a href="#" class="heading">Terugbelplanning</a>

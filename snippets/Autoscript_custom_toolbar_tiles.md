@@ -4,7 +4,7 @@ In het autoscript zijn twee plaatsen waar eigen tiles kunnen worden ingevoegd. V
 
 Onderstaande voorbeeld voegt een tile toe met de agent die het laatst een afsrpaak heeft gemaakt op de campagne.
 
-```
+``` html
 <div style="display:inline">
 <!--
  Adding services and controllers
@@ -66,7 +66,7 @@ app.controller('LastAppointmentMadeByController', function($scope, $log, Autoscr
 
 Met de volgende code worden drie tiles toegevoegd met wachtrij informatie van de gekoppelde campagne. Meer informatie over welke data het API end-point teruggeeft kan worden gevonden door de url vanuit de browser of postman op te roepen en de json data te bekijken.
 
-```
+``` html
 <!--
  Adding services and controllers
 -->

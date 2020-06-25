@@ -4,7 +4,7 @@ Vanaf v4.3.2.31 heeft CallProPortal enkele KPI API's die mbv SignalR gegevens ku
 
 Variabele: `BREAK.INFO`
 data-type: memo
-```
+``` html
 <!--
  Reference CallProPortal signalR
 -->

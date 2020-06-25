@@ -18,7 +18,7 @@ Weergave control: (Ja)
 Control type: HTML
 Custom HTML:
 
-```
+``` html
 <div data-role="group" data-group-type="one-state">
 <button class="button primary mini-button" onclick="CallTransferToServiceNumber('8010')">Introductie project volledig</button>
 <button class="button primary mini-button" onclick="CallTransferToServiceNumber('8011')">Introductie project verkort</button>

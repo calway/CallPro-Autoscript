@@ -4,7 +4,7 @@ Op het belvloer overzicht wordt de gesprekstijd en belfase weergeven inclusief s
 Wel kan met onderstaande scriptcode een signalering op maat worden gemaakt zowel qua uiterlijk, als qua timing. In dit voorbeeld is de maximale tijd per gespreksfase wacht, call en wrapup in te stellen.
 De weergave gebeurd hier met een button die van kleur veranderd als de maximale tijd is verstreken. 
 
-```
+``` html
 <script>
 // Initialisatie: Stel een time in voor het controlerne van de CallState
 var oCallStateTimer = window.setTimeout("CallStateTimer()", 1000);

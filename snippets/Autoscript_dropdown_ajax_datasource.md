@@ -4,7 +4,7 @@ Vaak hebben keuzelijsten vaste waarden die je makkelijk in een lijstje in CallPr
 
 In dit voorbeeld plaatsen we een bestand met functies in een blob container op azure. We gebruiken deze lijst om de functies weer te geven. Omdat we nu aan kale json datasrouce gebruiken werkt de zoekfunctie van de dropdown helaas niet. 
 
-```
+``` html
 <select id="script_name_func" name="script_name_func" title="Functie" ng-model="script_name_func" style="width:100%;"></select>
 <script>
 $('#script_name_func').select2({
@@ -22,7 +22,7 @@ Om het zoekgedrag te herstellen moet een server-side api gebruikt worden die que
 
 Voor toepassingen waarbij de zoekfunctie essentieel is, maar geen externe api kan worden gemaakt is het toch mogelijk om een eenvoudig databestand (json) te gebruiken maar dan met iets aangepastte javascript.
 
-```
+``` html
 <select id="script_name_func" name="script_name_func" title="Functie" ng-model="script_name_func" style="width:100%;"></select>
 <script>
 $.ajax({

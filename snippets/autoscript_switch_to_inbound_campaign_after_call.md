@@ -7,7 +7,7 @@ Dit is nodig om in het call center een vastlegging te krijgen van de tijd die ag
 
 Agenten die zitten te wachten op een nieuwe call kunnen zelf makkelijk een Inbound registratie starten, maar als het erg druk is op inbound, en/of gewerkt wordt met agents die callblending werken kan het geburen dat he tdoor de drukte niet mogelijk is ** handmatig ** een nieuwe registratie voor de Chat cmpagne te beginnen. Met deze functie kan worde nafgeweken van he tstandaard gedrag van Callpro om zelf een wachtende inbound call op te pakkeen maar in plaats daarvan een specifieke registratie te beginnen.
 
-```
+``` html
 <script>
 //
 // Snippet: Schakel over naar inbound campagne en maak een blanco entry

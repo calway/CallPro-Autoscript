@@ -6,7 +6,7 @@ In dit voorbeeld plaatsen we de lijst in een accordion die we in de `SCRIPT.INFO
 
 Met de `data-on-frame-opened` zorgen we ervoor dat de resultaten pas wrode nopgehaald als de accordion wordt geopend. Op de server worden resultaten 30 minuten bewaard (gecached).
 
-```
+``` html
 <div class="accordion" data-role="accordion" data-on-frame-opened="call_ace_refresh(frame)">
 <div class="frame" id="ace-frame">
   <a href="#" class="heading">Agent terugbellijst

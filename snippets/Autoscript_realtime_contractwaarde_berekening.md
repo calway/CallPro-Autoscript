@@ -19,7 +19,7 @@ Naam: `vast`
 Datatype: Karakter(10)  
 Algemeen/Vraag: (leeg)  
 CustomHTML:
-```
+``` html
 <script type="text/javascript">
 function BerekenOrderwaarde()
 {
@@ -64,7 +64,7 @@ Naam: `mobiel`
 Datatype: Karakter(10)  
 Algemeen/Vraag: (leeg)  
 Custom HTML:
-```
+``` html
 <div class="row cells12">
 
 <div class="cell colspan4">
@@ -93,7 +93,7 @@ Naam: `orderwaarde_totaal`
 Datatype: Karakter(1)  
 Algemeen/Vraag: (leeg)  
 Custom HTML:
-```
+``` html
 <div class="row cells12">
 
 <div class="cell colspan4">

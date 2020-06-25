@@ -13,7 +13,7 @@ Weergave control: (Ja)
 Control type: HTML
 Custom HTML:
 
-```
+``` html
 <script>
 function ShowGoogleMap_addr_street() {
 	var URL = "https://www.google.nl/maps/place/";

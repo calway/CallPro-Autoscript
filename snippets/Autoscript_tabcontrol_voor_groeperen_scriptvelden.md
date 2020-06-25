@@ -6,9 +6,12 @@ Er kunnen ook meerdere blokken worden samengevoegd. Om met meerdere blokken te w
 
 Veld: NAW_HTML_BEGIN  
 Type: karakter(1)  
-control-type: HTML  
+control-type: HTML
+Opties:  
+[x] Laatste veld op regel  
+[x] Genereer geen regel opmaak (html) om de velden  
 HTML:
-```
+``` html
     <div class="tabcontrol" data-role="tabcontrol">
     <ul class="tabs">
         <li><a href="#frame_1">Contactpersoon</a></li>
@@ -20,9 +23,12 @@ HTML:
 ```
 Veld: NAW_HTML_END  
 Type: karakter(1)  
-control-type: HTML  
+control-type: HTML
+Opties:  
+[x] Laatste veld op regel  
+[x] Genereer geen regel opmaak (html) om de velden  
 HTML:
-```
+``` html
         </div>
     </div>
 </div>
@@ -32,9 +38,12 @@ Om tussen de BEGIN en END een extra tabcontrol te maken (dit hoort te correspond
 
 Veld: NAW_HTML_ADRES  
 Type: karakter(1)  
-control-type: HTML  
+control-type: HTML
+Opties:  
+[x] Laatste veld op regel  
+[x] Genereer geen regel opmaak (html) om de velden  
 HTML:
-```
+``` html
         </div>
         <div class="frame" id="frame_2">
 ```
