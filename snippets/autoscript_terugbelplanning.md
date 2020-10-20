@@ -1,7 +1,7 @@
 ## Terugbelplanning
 
-Met dit overzicht kan een agent zien heoveel gerichtte terugbelafsrpaken hij/zij al heeeft gemaakt per uur van de dag voor de komende X dagen.
-Als shortcut kan ook op een tijdvak worden geklikt om direct eene terugbelafsrpaak in te plannen. De status die hiervoor gebruikt wordt staat standaard ingesteld op statcode 310 maar kan eenvoudig worden aangepast.
+Met dit overzicht kan een agent zien hoeveel gerichtte terugbelafspraken hij/zij al heeft gemaakt per uur van de dag voor de komende X dagen.
+Als shortcut kan ook op een tijdvak worden geklikt om direct een terugbelafsrpaak in te plannen. De status die hiervoor gebruikt wordt staat standaard ingesteld op statcode 310 maar kan eenvoudig worden aangepast.
 
 
 ``` html
@@ -51,9 +51,13 @@ Als shortcut kan ook op een tijdvak worden geklikt om direct eene terugbelafsrpa
 
 	// add an API service
 	app.service("AgentCallbackCalendarApiService", function ($http, $log) {
-
+		//
+		// MaxCallbackDay -> Number of days into the furute to show callbacks (default=10)
+		// MinCallHH -> Earliest hour of the day to show (default=9)
+		// MaxCallHH -> Latest hour of the day to show (default=22)
+		//
 		this.GetAgentCallbackCalendar = function (agentid) {
-			var r = $http.get("/api/Services/GetAgentCallbackCalendar?AgentID=" + agentid + "&nocache=true");
+			var r = $http.get("/api/Services/GetAgentCallbackCalendar?AgentID=" + agentid + "&MaxCallbackDays=10&MinCallHH=9&MaxCallHH=22&nocache=true");
 			return r;
 		}
 	})
