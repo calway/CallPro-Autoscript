@@ -1,7 +1,7 @@
 ## Terugbelplanning
 
 Met dit overzicht kan een agent zien hoeveel gerichtte terugbelafspraken hij/zij al heeft gemaakt per uur van de dag voor de komende X dagen.
-Als shortcut kan ook op een tijdvak worden geklikt om direct een terugbelafsrpaak in te plannen. De status die hiervoor gebruikt wordt staat standaard ingesteld op statcode 310 maar kan eenvoudig worden aangepast.
+Als shortcut kan ook op een tijdvak worden geklikt om direct een terugbelafspraak in te plannen. De status die hiervoor gebruikt wordt staat standaard ingesteld op statcode 310 maar kan eenvoudig worden aangepast.
 
 
 ``` html
