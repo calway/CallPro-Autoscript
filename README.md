@@ -7,6 +7,7 @@ De verzamelplaats voor code-snippets en handige html, css en javascript voorbeel
 * [Email opt-in registratie](snippets/Autoscript_email_optin_registratie.md)
 * [Gesprek doorschakelen naar audiofragment](snippets/Autoscript_gesprek_doorschakelen_naar_audiofragment.md)
 * [Google maps button](snippets/Autoscript_google_maps_button.md)
+* [Google zoeken button](snippets/Autoscript_google_search_button.md)
 * [Print een deel van het script](snippets/Autoscript_Print_part_of_the_script.md)
 * [Realtime contractwaarde berekening](snippets/Autoscript_realtime_contractwaarde_berekening.md)
 * [Schakel bij afcoderen van huidige call over naar een inbound campagne met een blanco call](snippets/autoscript_switch_to_inbound_campaign_after_call.md)
