@@ -30,6 +30,8 @@ De verzamelplaats voor code-snippets en handige html, css en javascript voorbeel
 
 # Handleidingen
 
-* [CallPro in het gebruik](manual/callpro-in-het-gebruik/README.md)
 * [Installatie en onderhoud](manual/installatie-en-onderhoud/README.md)
 * [FAQ](manual/faq/README.md)
+
+# Verplaatst naar https://docs.callpro.nl
+* [CallPro in het gebruik](https://docs.callpro.nl/manual/callpro-in-het-gebruik/)
