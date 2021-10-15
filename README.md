@@ -30,8 +30,10 @@ De verzamelplaats voor code-snippets en handige html, css en javascript voorbeel
 
 # Handleidingen
 
-* [Installatie en onderhoud](manual/installatie-en-onderhoud/README.md)
 * [FAQ](manual/faq/README.md)
 
 # Verplaatst naar https://docs.callpro.nl
+Documentatie, handleidingen en instructies worden verzameld op de nieuwe site https://docs.callpro.nl. Werk bestaande hyperlinks bij naar de nieuwe urls.
+
+* [Installatie en onderhoud](https://docs.callpro.nl/)
 * [CallPro in het gebruik](https://docs.callpro.nl/manual/callpro-in-het-gebruik/)
