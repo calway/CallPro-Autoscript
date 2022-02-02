@@ -2,7 +2,7 @@
 
 Vaak hebben keuzelijsten vaste waarden die je makkelijk in een lijstje in CallPro kunt invoeren. Soms zijn deze lijsten zo lang en komen ze van een externe bron dat het eenvoudiger is om ze vanuit een externe bron te laden. Het autoscript gebruikt de select2 dropdown control die ook externe data kan gebruiken om de lijst te vullen.
 
-In dit voorbeeld plaatsen we een bestand met functies in een blob container op azure. We gebruiken deze lijst om de functies weer te geven. Omdat we nu aan kale json datasrouce gebruiken werkt de zoekfunctie van de dropdown helaas niet. 
+In dit voorbeeld plaatsen we een bestand met functies in een blob container op azure. We gebruiken deze lijst om de functies weer te geven. Omdat we nu aan kale json datasource gebruiken werkt de zoekfunctie van de dropdown helaas niet. 
 
 ``` html
 <select id="script_name_func" name="script_name_func" title="Functie" ng-model="script_name_func" style="width:100%;"></select>
@@ -11,7 +11,7 @@ $('#script_name_func').select2({
   minimumInputLength: 0,
   minimumResultsForSearch: -1,
   ajax: {
-    url: 'https://callpro.blob.core.windows.net/select2/select2-func.json',
+    url: 'https://callprostorage.blob.core.windows.net/public-json/func-list-0001.json',
     dataType: 'json'
   }
 });
@@ -24,15 +24,23 @@ Voor toepassingen waarbij de zoekfunctie essentieel is, maar geen externe api ka
 
 ``` html
 <select id="script_name_func" name="script_name_func" title="Functie" ng-model="script_name_func" style="width:100%;"></select>
+<option value=""> -- Keuze -- </option>
 <script>
 $.ajax({
-  url: 'https://callpro.blob.core.windows.net/select2/select2-func.json',
+  url: 'https://callprostorage.blob.core.windows.net/public-json/func-list-0001.json',
   dataType: 'json'
 }).done( function(data) {
   $('#script_name_func').select2({
   minimumInputLength: 0,
   data: data.results
   });
+  // Om problemen bij het filteren te voorkomen voegen we altijd de huidige veldinhoud als optie toe en maken deze de actieve keuze. 
+  var loCallPro = window.external;
+  var loScript = loCallPro.GetScript();
+  var loEntry = loScript.GetEntry();
+  var loFields = loEntry.GetScriptFields()
+  var value = loFields.GetByFldName("name_func");
+  control.append(new Option(value, value, true, true));
 });
 </script>
 ```
