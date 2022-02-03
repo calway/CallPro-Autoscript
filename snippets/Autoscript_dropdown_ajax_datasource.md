@@ -30,7 +30,7 @@ $.ajax({
   url: 'https://callprostorage.blob.core.windows.net/public-json/func-list-0001.json',
   dataType: 'json'
 }).done( function(data) {
-  $('#script_name_func').select2({
+  var control = $('#script_name_func').select2({
   minimumInputLength: 0,
   data: data.results
   });
