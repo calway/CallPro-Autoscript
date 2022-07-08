@@ -35,11 +35,7 @@ $.ajax({
   data: data.results
   });
   // Om problemen bij het filteren te voorkomen voegen we altijd de huidige veldinhoud als optie toe en maken deze de actieve keuze. 
-  var loCallPro = window.external;
-  var loScript = loCallPro.GetScript();
-  var loEntry = loScript.GetEntry();
-  var loFields = loEntry.GetScriptFields()
-  var value = loFields.GetByFldName("name_func");
+  var value = '%SCRIPT.NAME_FUNC \TRA%';
   control.append(new Option(value, value, true, true));
 });
 </script>
