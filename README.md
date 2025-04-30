@@ -1,6 +1,7 @@
 # CallPro Autoscript
 De verzamelplaats voor code-snippets en handige html, css en javascript voorbeelden voor gebruik in het autoscript.
 
+* [Weergave van tekst editor met opmaak voor memo velden](snippets/Autoscript_sceditor.md)
 * [Accordion control](snippets/Autoscript_accordion_control.md)
 * [Custom toolbar tiles](snippets/Autoscript_custom_toolbar_tiles.md)
 * [Dropdown ajax datasource](snippets/Autoscript_dropdown_ajax_datasource.md)
