@@ -1,5 +1,5 @@
 # CallPro Autoscript
-De verzamelplaats voor code-snippets en handige html, css en javascript voorbeelden.
+De verzamelplaats voor code-snippets en handige html, css en javascript voorbeelden voor gebruik in het autoscript.
 
 * [Accordion control](snippets/Autoscript_accordion_control.md)
 * [Custom toolbar tiles](snippets/Autoscript_custom_toolbar_tiles.md)
@@ -27,11 +27,3 @@ De verzamelplaats voor code-snippets en handige html, css en javascript voorbeel
 * [Gebruik Campaignmonitor om emails te sturen](snippets/Autoscript_Campaignmonitor_transactional_mail_using_smarttemplates.md)
 * [Mailchimp aanmelden op mailinglijst](snippets/Autoscript_Mailchimp_Subscribe_to_mailinglist_snippet.md)
 * [Weergaven van KPI informatie uit CallProPortal](snippets/CallProPortal_KPI_informatie_weergeven.md)
-
-# Handleidingen
-
-# Verplaatst naar https://docs.callpro.nl
-Documentatie, handleidingen en instructies worden verzameld op de nieuwe site https://docs.callpro.nl. Werk bestaande hyperlinks bij naar de nieuwe urls.
-
-* [Installatie en onderhoud](https://docs.callpro.nl/)
-* [CallPro in het gebruik](https://docs.callpro.nl/manual/callpro-in-het-gebruik/)
